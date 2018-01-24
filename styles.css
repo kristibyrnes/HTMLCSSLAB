@@ -1,6 +1,7 @@
 body {
   background-color: #f9fafc;
   text-align: center;
+  font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 .container {
@@ -8,14 +9,12 @@ body {
 }
 
 h1 {
-  font-family: "Open Sans", Helvetica, serif;
   font-weight: normal;
   margin: 20px;
   text-align: left;
 }
 
 p {
-  font-family: "Open Sans", Helvetica, serif;
   text-align: left;
   border-left: 2px #69696a solid;
   width: 40%;
@@ -30,18 +29,16 @@ nav {
   justify-content: space-between;
   margin: 20px;
 }
+
 .chirpus {
-  padding-top: 10px;
+  padding-top: 0px;
   padding-left: 0;
-}
-.topnav {
-  margin: 10px;
+  color: #000;
 }
 
 a {
   text-decoration: none;
   font-family: "Open Sans", Helvetica, serif;
-  font-size: 15px;
   color: #69696a;
   padding: 10px;
 }
@@ -88,7 +85,7 @@ button {
   background-color: #000;
   color: #f9fafc;
   border-radius: 20px;
-  padding: 10px 25px;
-  font-size: 15px;
-  margin-top: 250px;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-top: 200px;
 }
